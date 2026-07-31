@@ -4,7 +4,7 @@ A responsive workshop booking web app built with **HTML, CSS, and Vanilla TypeSc
 
 > 📚 This project started as a weekly assignment for the [Varislab Frontend Bootcamp](https://github.com/VaridenTech/varislab-frontend-bootcamp-content-7-july-2026/blob/main/Week_03/04_workshop_booking_assignment/README.md). I rebuilt it and extended it with additional features as a portfolio piece.
 
-🔗 **Live demo:** [myportfolio-taki10.vercel.app](https://myportfolio-taki10.vercel.app/)
+🔗 **Live demo:** [myportfolio-taki10.vercel.app](https://portfolio-7zgg12t50-taki10.vercel.app)
 📦 **Repository:** [github.com/Toktakk/portfolio](https://github.com/Toktakk/portfolio)
 
 ## Screenshots
