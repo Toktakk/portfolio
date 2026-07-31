@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/toolbox.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop Hub</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="#top"> Workshop Hub </a>
+        <a href="#booking">My Booking</a>
+      </nav>
+    </header>
+    <main id="top">
+      <section class="hero-section" aria-labelledby="heroTitle">
+        <p class="eyebrow">Create Connect Craft</p>
+        <h1 id="heroTitle">Make Your Weekend More Creative</h1>
+        <p>
+          Explore workshops, pick your seats, and confirm your booking with
+          confidence.
+        </p>
+      </section>
+
+      <section class="workshop-section" aria-labelledby="workshopTitle">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Upcoming workshops</p>
+            <h2 id="workshopTitle">Available Workshops</h2>
+          </div>
+          <p class="section-description">
+            You can select up to the maximum number of seats available for each
+            workshop.
+          </p>
+        </div>
+
+        <div id="workshopGrid" class="workshop-grid"></div>
+      </section>
+
+      <section
+        id="booking"
+        class="booking-section"
+        aria-label="Booking details"
+      >
+        <div class="booking-card">
+          <p class="panel-label">Selected Workshops</p>
+
+          <div class="booking-header">
+            <h2>Your Booking</h2>
+
+            <button
+              id="clearBookingButton"
+              type="button"
+              hidden
+              aria-label="Clear all selected workshops"
+            >
+            ✕ Clear
+            </button>
+          </div>
+
+          <div id="bookingItems" class="booking-items"></div>
+
+          <p
+            id="emptyBookingMessage"
+            class="empty-booking"
+            style="display: block"
+          >
+            No workshops selected yet.
+          </p>
+        </div>
+
+        <div class="summary-card">
+          <p class="panel-label">Payment Summary</p>
+          <h2>Order Summary</h2>
+
+          <label for="customerName">Full Name</label>
+          <input
+            id="customerName"
+            type="text"
+            autocomplete="name"
+            placeholder="e.g. John Smith"
+          />
+
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span id="subtotal">฿0.00</span>
+          </div>
+
+          <div class="summary-row">
+            <span>Service Fee (3%)</span>
+            <span id="tax">฿0.00</span>
+          </div>
+
+          <div class="summary-row final-total">
+            <span>Total</span>
+            <span id="total">฿0.00</span>
+          </div>
+
+          <button id="confirmBookingButton" type="button">
+            Confirm Booking
+          </button>
+
+          <p id="bookingMessage" class="book-message" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>© 2026 Workshop Hub · Built with HTML, CSS and TypeScript</p>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
