@@ -16,7 +16,6 @@ A responsive workshop booking web app built with **HTML, CSS, and Vanilla TypeSc
 **Mobile**
 
 <p>
-  <img src="./screenshots/mobile_01.png" width="45%" alt="Mobile view - hero section" />
   <img src="./screenshots/mobile_02.png" width="45%" alt="Mobile view - workshop card" />
 </p>
 
